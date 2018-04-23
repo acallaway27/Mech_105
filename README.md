@@ -9,3 +9,4 @@
 #### This function allows the user to generate a Lower and Upper Triangular Matrix for any given square matrix [A].The function uses partial pivoting.  *note: matrix [A] must be a square matrix for this function to work properly.
 
 ### Simpson's Function
+#### The Simpson function will find the integral of a given set of data points. For the Simpson rule to be implemented properly, there must be an even number of intervals. So, in this function I added lines of code to makesure that if there was an odd number of intervals, the Trapezoidal Rule would be used on the last interval and added to the result of the other intervals on which the Simpson method had determined the integral. The results of both rules are then added to give the user a final integral.
